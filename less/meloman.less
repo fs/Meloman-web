@@ -105,6 +105,27 @@ header {
 	height: 599px;
 	float: left;
 	margin-right: 118px;
+	position: relative;
+	.reflection {
+		background: url('../img/reflection.png') top right no-repeat;
+		z-index: 9;
+	}
+	.slides {
+		li {
+			float: left;
+		}
+		.carousel-control {
+			display: none;
+		}
+	}
+	.reflection, .slides {
+		position: absolute;		
+		overflow: hidden;
+		width: 233px;
+		height: 334px;
+		top: 107px;
+		right: 19px;
+	}
 }
 
 footer {

@@ -1,6 +1,3 @@
-/* Author: 
-
-*/
 $(function(){
 	$.easing.elasout = function(x, t, b, c, d) {
 	    var s=1.70158;var p=0;var a=c;
@@ -9,11 +6,11 @@ $(function(){
 	    else var s = p/(2*Math.PI) * Math.asin (c/a);
 	    return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
 	};
-
 	$(".video-link a").click(function(){
 	    $.scrollTo("828px", 1800, {'axis':'y'});
 			return false;
 	});
+	$(".slides").carousel();
 });
 
 
