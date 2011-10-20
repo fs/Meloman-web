@@ -22,7 +22,8 @@ header h1.video-link{margin:0 0 0 48px;padding:0;display:block;float:left;positi
 #video{width:620px;float:left;}
 .wrap{width:950px;margin:auto;text-align:left;}
 #main{padding-top:50px;background:url('../img/content_bg.png');}
-.iphone{background:url('../img/iphone.png') 0 0 no-repeat;width:274px;height:599px;float:left;margin-right:118px;position:relative;}.iphone .reflection{background:url('../img/reflection.png') top right no-repeat;z-index:9;}
+.iphone{background:url('../img/iphone.png') 0 0 no-repeat;width:274px;height:599px;float:left;margin-right:118px;position:relative;}.iphone .label{position:absolute;background:url('../img/label_free.png') 0 0 no-repeat;width:118px;height:118px;z-index:18;right:-52px;top:8px;}
+.iphone .reflection{background:url('../img/reflection.png') top right no-repeat;z-index:9;}
 .iphone .slides li{float:left;}
 .iphone .slides .carousel-control{display:none;}
 .iphone .reflection,.iphone .slides{position:absolute;overflow:hidden;width:233px;height:334px;top:106px;right:19px;}
