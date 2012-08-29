@@ -29,7 +29,7 @@
           <div class="label"></div>
           <div class="reflection"></div>
           <div class="slides">
-            <%= I18n.t(:hello) %> World
+
             <ul>
               <li><img src="/content/slide1.png" alt="Загрузка приложения..." /></li>
               <li><img src="/content/slide2.png" alt="Авторизация" /></li>
@@ -63,41 +63,28 @@
       <div class="wrap">
         <section class="clearfix">
           <div class="demo">
-            <h2>Твои любимые песни теперь всегда будут<br>с тобой!</h2>
-            <p>Приложение “Меломан” позволяет просто получить доступ к вашим песням ВКонтакте, чтобы наслаждаться ими дома или в дороге, даже без подключения к интернету.</p>
-            <p>Простота и бесплатность вот, что отличает наше приложение от аналогов.</p>
+            <%= I18n.t(:demo) %>
           </div>
           <div id="video">
-            <iframe width="620" height="350" src="http://www.youtube.com/embed/7Dkllj1GbQU" frameborder="0" allowfullscreen></iframe>
+            <%= I18n.t(:video_youtube) %>
           </div>
         </section>
         <section class="steps">
           <ul class="clearfix">
             <li>
-              <h3>Авторизация</h3>
-              <img src="/content/screen1.png" alt="Авторизация" />
-              <h4>Введите логин  <br>и пароль от вашего аккаунта ВКонтакте</h4>
-              <p>Введите логин и пароль от вашего аккаунта ВКонтакте, чтобы приложение могло получить доступ к списку ваших песен. Пароль надежно хранится в защищенной системе iPhone.</p>
+              <%= I18n.t(:authorization) %>
             </li>
             <li>
-              <h3>Список песен</h3>
-              <img src="/content/screen2.png" alt="Список песен" />
-              <h4>Список песен из<br>вашего аккаунта ВКонтакте, автоматически обновляется,<br>стоит лишь<br>потянуть за него.</h4>
+              <%= I18n.t(:song_list) %>
             </li>
             <li>
-              <h3>Прослушивание</h3>
-              <img src="/content/screen3.png" alt="Прослушивание" />
-              <h4>Просто нажмите<br>на заголовок песни,<br>чтобы прослушать</h4>
+              <%= I18n.t(:listening) %>
             </li>
             <li>
-              <h3>Избранные песни</h3>
-              <img src="/content/screen4.png" alt="Избранные песни" />
-              <h4>Нажмите на<br>звездочку (<img src="/content/star.png" alt="Избранное" class="star" />), дождитесь пока индикатор<br>не зафиксирует завершение процесса<br>и наслаждайтесь любимыми песнями<br>в оффлайне.</h4>
+              <%= I18n.t(:favorite_songs) %>
             </li>
             <li>
-              <h3>Настройки</h3>
-              <img src="/content/screen5.png" alt="Настройки" />
-              <h4>Вы можете изменить аккаунт ВКонтакте, просмотреть сколько места используется<br>для избранных песен.</h4>
+              <%= I18n.t(:settings) %>
             </li>
           </ul>
         </section>
