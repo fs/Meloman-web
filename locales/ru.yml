@@ -1,3 +1,22 @@
 ---
 ru:
-  hello: "Привет"
+  meloman:    Меломан
+  li_slides:  <li><img src="/content/slide1.png" alt="Загрузка приложения..." /></li>
+              <li><img src="/content/slide2.png" alt="Авторизация" /></li>
+              <li><img src="/content/slide2_2.png" alt="Авторизация" /></li>
+              <li><img src="/content/slide3.png" alt="Авторизация..." /></li>
+              <li><img src="/content/slide4.png" alt="Синхронизация..." /></li>
+              <li><img src="/content/slide5.png" alt="Список песен" /></li>
+              <li><img src="/content/slide6.png" alt="Проигрывание песни" /></li>
+              <li><img src="/content/slide7.png" alt="Добавление в избранное" /></li>
+              <li><img src="/content/slide8.png" alt="Добавление в избранное" /></li>
+              <li><img src="/content/slide9.png" alt="Добавление в избранное" /></li>
+              <li><img src="/content/slide10.png" alt="Список избранных песен" /></li>
+              <li><img src="/content/slide11.png" alt="Настройки" /></li>
+              <li><img src="/content/slide12.png" alt="Помощь" /></li>
+  about:      <img src="/img/logo.png" alt="Меломан" width="426" height="93" class="logo" />
+              <h3>Музыкальное приложение для iPhone</h3>
+              <h1>Слушай любимую музыку<br>
+              из сети ВКонтакте<br>
+              без подключения к интернету!</h1>
+  video-link: Видео
