@@ -1,2 +1,3 @@
 source :rubygems
-gem "powder"
+
+gem "middleman", "~>3.0.0"
