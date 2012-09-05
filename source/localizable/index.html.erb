@@ -30,14 +30,28 @@
           <div class="reflection"></div>
           <div class="slides">
             <ul>
-              <%= I18n.t(:li_slides) %>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide1.png" alt="<%= I18n.t(:loading_application) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide2.png" alt="<%= I18n.t(:authorization) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide2_2.png" alt="<%= I18n.t(:authorization) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide3.png" alt="<%= I18n.t(:authorization) %>..." /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide4.png" alt="<%= I18n.t(:synchronization) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide5.png" alt="<%= I18n.t(:list_of_songs) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide6.png" alt="<%= I18n.t(:playing_song) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide7.png" alt="<%= I18n.t(:add_favorite) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide8.png" alt="<%= I18n.t(:add_favorite) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide9.png" alt="<%= I18n.t(:add_favorite) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide10.png" alt="<%= I18n.t(:list_of_fav_songs) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide11.png" alt="<%= I18n.t(:settings) %>" /></li>
+              <li><img src="/content/<%= I18n.t(:lang) %>/slide12.png" alt="<%= I18n.t(:help) %>" /></li>
             </ul>
           </div>
         </div>
-        <%= I18n.t(:about) %>
+        <img src="/img/<%= I18n.t(:lang) %>/logo.png" alt="Меломан" width="426" height="93" class="logo" />
+        <h3><%= I18n.t(:about_h3) %></h3>
+        <h1><%= I18n.t(:about_h1) %></h1>
         <nav class="clearfix">
           <a href="#"><img src="/img/appstore.png" alt="Available on the iPhone App Store" width="154" height="51" /></a>
-          <h1 class="video-link"><a href="#main"><%= I18n.t(:video_link) %><img src="/img/arrow.png" alt="" width="11" height="18" /></a></h1>
+          <h1 class="video-link"><a href="#main"><%= I18n.t(:video) %><img src="/img/arrow.png" alt="" width="11" height="18" /></a></h1>
         </nav>
       </div>
     </header>
@@ -45,28 +59,41 @@
       <div class="wrap">
         <section class="clearfix">
           <div class="demo">
-            <%= I18n.t(:demo) %>
+            <h2><%= I18n.t(:demo_h2) %></h2>
+            <p><%= I18n.t(:demo_p1) %></p>
+            <p><%= I18n.t(:demo_p2) %></p>
           </div>
           <div id="video">
-            <%= I18n.t(:video_youtube) %>
+            <iframe width="620" height="350" src="<%= I18n.t(:video_href) %>" frameborder="0" allowfullscreen></iframe>
           </div>
         </section>
         <section class="steps">
           <ul class="clearfix">
             <li>
-              <%= I18n.t(:authorization) %>
+              <h3><%= I18n.t(:authorization) %></h3>
+              <img src="/content/<%= I18n.t(:lang) %>/screen1.png" alt="<%= I18n.t(:authorization) %>" />
+              <h4><%= I18n.t(:step1_h4) %></h4>
+              <p><%= I18n.t(:step1_p) %></p>
             </li>
             <li>
-              <%= I18n.t(:song_list) %>
+              <h3><%= I18n.t(:list_of_songs) %></h3>
+              <img src="/content/<%= I18n.t(:lang) %>/screen2.png" alt="<%= I18n.t(:list_of_songs) %>" />
+              <h4><%= I18n.t(:step2_h4) %></h4>
             </li>
             <li>
-              <%= I18n.t(:listening) %>
+              <h3><%= I18n.t(:listening) %></h3>
+              <img src="/content/<%= I18n.t(:lang) %>/screen3.png" alt="<%= I18n.t(:listening) %>" />
+              <h4><%= I18n.t(:step3_h4) %></h4>
             </li>
             <li>
-              <%= I18n.t(:favorite_songs) %>
+              <h3><%= I18n.t(:fav_songs) %></h3>
+              <img src="/content/<%= I18n.t(:lang) %>/screen4.png" alt="<%= I18n.t(:fav_songs) %>" />
+              <h4><%= I18n.t(:press_on_star) %> (<img src="/content/star.png" alt="<%= I18n.t(:fav) %>" class="star" />)<%= I18n.t(:step4_h4_continuation) %></h4>
             </li>
             <li>
-              <%= I18n.t(:settings) %>
+              <h3><%= I18n.t(:settings) %></h3>
+              <img src="/content/<%= I18n.t(:lang) %>/screen5.png" alt="<%= I18n.t(:settings) %>" />
+              <h4><%= I18n.t(:step5_h4) %></h4>
             </li>
           </ul>
         </section>
