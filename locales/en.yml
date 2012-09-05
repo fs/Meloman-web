@@ -1,6 +1,6 @@
 ---
-ru:
-  meloman:        Меломан
+en:
+  meloman:        Meloman
   li_slides:      <li><img src="/content/slide1.png" alt="Загрузка приложения..." /></li>
                   <li><img src="/content/slide2.png" alt="Авторизация" /></li>
                   <li><img src="/content/slide2_2.png" alt="Авторизация" /></li>

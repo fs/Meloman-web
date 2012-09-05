@@ -47,7 +47,7 @@
 #   end
 # end
 
-activate :i18n
+activate :i18n, :mount_at_root => :ru
 
 set :css_dir, 'stylesheets'
 
