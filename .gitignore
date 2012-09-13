@@ -12,3 +12,9 @@
 
 # Ignore Sass' cache
 /.sass-cache
+
+# Ignore executables after bundle install --bunstubs
+bin
+
+# Ignore gem bundler after bundle install --path vendor
+vendor
