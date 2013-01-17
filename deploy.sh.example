@@ -1,8 +1,0 @@
-#!/bin/bash
-
-export AWS_CALLING_FORMAT=SUBDOMAIN
-export AWS_ACCESS_KEY_ID=
-export AWS_SECRET_ACCESS_KEY=
-
-git pull origin master
-bin/middleman sync

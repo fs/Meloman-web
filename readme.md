@@ -1,16 +1,17 @@
-Code for meloman.flatsoft.com
-=============================
+# Source code for meloman.flatsoft.com
 
-Develop
------
+## Prepare development environment
 
-    bundle install --path vendor/bundle --binstubs
-    bin/middleman build
-    bin/middleman server
+```bash
+  git clone git@github.com:fs/Meloman-web.git
+  script/bootstrap
+```
+## Development process
 
-Deploy
-------
+1. Start server with `bin/middleman server`
+2. Make changes in the `source` folder
+3. Checkout results in the browser on `http://localhost:4567`
 
-    cp deploy.sh.example deploy.sh # setup S3 keys
-    sh deploy.sh
- 
+## Deploy
+
+Run `script/deploy`

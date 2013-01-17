@@ -19,5 +19,5 @@ bin
 # Ignore gem bundler after bundle install --path vendor
 vendor
 
-# Ignore deploy script with private keys
-deploy.sh
+# Ignore temp directory
+tmp
