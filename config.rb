@@ -49,14 +49,8 @@
 
 activate :i18n, :mount_at_root => :ru
 
-activate :sync do |sync|
-  sync.fog_provider = 'AWS' # Your storage provider
-  sync.fog_directory = 'bucket-name' # Your bucket name
-  sync.fog_region = 'bucket-region-name' # The region your storage bucket is in
-  sync.aws_access_key_id = 'super' # Your Amazon S3 access key
-  sync.aws_secret_access_key = 'secret' # Your Amazon S3 access secret
-  sync.existing_remote_files = 'keep' # What to do with your existing remote files? (keep or delete)
-  # sync.after_build = true # Run sync after build
+activate :deploy do |deploy|
+  deploy.method = :git
 end
 
 set :css_dir, 'stylesheets'
