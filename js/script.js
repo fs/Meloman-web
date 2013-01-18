@@ -1,0 +1,1 @@
+(function(){$(function(){return $.easing.elasout=function(e,t,n,r,i){var s,o,u;return u=1.70158,o=0,s=r,t===0?n:(t/=i)===1?n+r:(o||(o=i*.3),s<Math.abs(r)?(s=r,u=o/4):u=o/(2*Math.PI)*Math.asin(r/s),s*Math.pow(2,-10*t)*Math.sin((t*i-u)*2*Math.PI/o)+r+n)},$(".video-link a").click(function(){return $.scrollTo("828px",1800,{axis:"y"}),!1}),$(".slides").carousel()})}).call(this);
