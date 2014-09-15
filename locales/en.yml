@@ -13,13 +13,13 @@ en:
   list_of_fav_songs:      Favorite list
   settings:               Settings
   help:                   Help
-  about_h3:               Music app for iPhone
+  about_h3:               Music app for iPhone &amp; Android
   about_h1:               Listen to favorite music<br>from VK<br> with no Internet connection needed!
   demo_h2:                Your favorite songs are now going to be with you<br />always!
   demo_p1:                “Meloman” app allows to easily get access to your songs in VK, so that you could listen it at home or on the road with no Internet connection.
   demo_p2:                It’s just as easy as native iPod player, so it stands out from other players!
   step1_h4:               Just input your VK login<br />& password
-  step1_p:                 Please input your VK.com login & password, so app can download the list of your songs from it. Password your be stored in encrypted section of memory in iPhone.
+  step1_p:                 Please input your VK.com login & password, so app can download the list of your songs from it. Password your be stored in encrypted section of memory in phone.
   step2_h4:               List of songs<br /> from your VK.com is automatically refreshed, once you drag it with finger just like that.
   listening:              Play
   step3_h4:               Just tap<br />the song title<br /> to tap
